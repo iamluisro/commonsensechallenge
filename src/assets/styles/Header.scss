@@ -1,0 +1,32 @@
+@import './App.scss';
+
+.Header__Item {
+    flex-direction: column;    
+    justify-content: inherit;
+    font-size: .7rem;
+//    padding: 0.5rem 1rem;
+
+    span {
+        padding-bottom: 0.5rem;
+    }
+}
+
+.navbar-input {
+    border-bottom: 1px solid $link;
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.75rem;
+    margin: 1.5rem 2rem;
+    font-size: 0.7rem;
+    width: 30%;
+
+    input {
+        border: 0;
+        margin-right: 6rem;
+        
+    }
+
+    input::placeholder {
+        color: $link;
+    }
+}

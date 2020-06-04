@@ -10,15 +10,18 @@ $textLinkActive: #004D9C;
 $navColor: #013266;
 $beige-lighter: #EFF0EB;
 $bodyBackground: #FFFFFF;
+$logoBlue: #013367;
 
 // Update Bulma's global variables
 $family-sans-serif: "Roboto", sans-serif;
 //$grey-dark: $brown;
 //$grey-light: $beige-light;
-$primary: $generalOrange;
+$primary: $generalBlue;
 $link: $textLinkActive;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+$orange: $generalOrange;
+$blue: $generalBlue;
 
 // Update some of Bulma's component variables
 $body-background-color: $bodyBackground;
