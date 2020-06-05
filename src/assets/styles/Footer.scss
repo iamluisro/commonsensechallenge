@@ -1,0 +1,50 @@
+@import './App.scss';
+
+.Footer__Container {
+    margin: 0;
+}
+
+.Footer__Items {
+    background-color: $logoBlue;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+
+    @media only screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding: 2rem 4rem;
+    
+    }
+}
+
+.Footer__Text {
+    color: white;
+    margin: 0 0 2rem;
+    
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    span {
+        font-size: .9rem;
+    }
+
+    @media only screen and (min-width: 768px) {
+
+    }
+}
+
+.TOC__Items {
+    background-color: #D06E05;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    color: #fff;
+
+    span {
+        margin-right: 1rem;
+    }
+}

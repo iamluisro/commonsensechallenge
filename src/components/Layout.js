@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import '../assets/styles/Layout.scss';
 
 const Layout = ({ children }) => {
@@ -9,6 +10,7 @@ const Layout = ({ children }) => {
       <Header />
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 };

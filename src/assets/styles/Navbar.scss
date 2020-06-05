@@ -1,15 +1,8 @@
 @import './App.scss';
 
 .NavBar__Container {
-        /* width: 100%; */
         background-color: #013266;
-        /* height: 50px; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* padding: 0 5rem; */
         color: #ffffff;
-        /* font-size: .9rem; */
-        /* justify-content: space-between; */
         text-align: center;
 
         @media only screen and (min-width: 768px) {

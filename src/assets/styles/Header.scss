@@ -4,11 +4,14 @@
     flex-direction: column;    
     justify-content: inherit;
     font-size: .7rem;
-//    padding: 0.5rem 1rem;
 
     span {
         padding-bottom: 0.5rem;
     }
+}
+
+.logoFont {
+    font-weight: 500;
 }
 
 .navbar-input {
