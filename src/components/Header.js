@@ -5,9 +5,10 @@ import '../assets/styles/Header.scss';
 const Header = () => {
   return (
     <>
-      <nav className='navbar' role='navigation' aria-label='main navigation' style={{ padding: '2rem 0' }}>
+      <nav className='navbar' role='navigation' aria-label='main navigation' style={{ padding: '2rem 2rem' }}>
         <div className='navbar-brand'>
-          <a className='navbar-item' href='/'>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a className='navbar-item'>
             <h1 className='is-size-2 has-text-orange'>Logo</h1>
           </a>
         </div>
