@@ -5,7 +5,7 @@ import '../assets/styles/Header.scss';
 const Header = () => {
   return (
     <>
-      <nav className='navbar' role='navigation' aria-label='main navigation' style={{ padding: '2rem 2rem' }}>
+      <nav className='navbar' role='navigation' aria-label='main navigation' style={{ padding: '1rem 2rem' }}>
         <div className='navbar-brand'>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a className='navbar-item'>
