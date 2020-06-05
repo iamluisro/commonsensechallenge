@@ -1,12 +1,13 @@
 import React from 'react';
 import Layout from './components/Layout';
-import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 import './assets/styles/App.scss';
 
 function App() {
   return (
     <>
       <Layout>
+        <Hero />
         <h1 className='title'>
           Bulma
         </h1>

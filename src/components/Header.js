@@ -9,7 +9,7 @@ const Header = () => {
         <div className='navbar-brand'>
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a className='navbar-item'>
-            <h1 className='is-size-2 has-text-orange'>Logo</h1>
+            <h1 className='is-size-2 has-text-orange'>LOGO</h1>
           </a>
         </div>
         <div className='navbar-menu navbar-end'>
