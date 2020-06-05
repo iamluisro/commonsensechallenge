@@ -1,0 +1,44 @@
+@import './App.scss';
+
+.NavBar__Container {
+        background-color: #013266;
+        color: #ffffff;
+        text-align: center;
+
+        @media only screen and (min-width: 768px) {
+            height: 50px;
+            display: flex;
+            padding: 0 5rem;
+            font-size: .9rem;
+            justify-content: space-between;
+        }
+  
+}
+
+.NavBar__Menu {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Navbar__Menu__Item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    justify-content: center;
+
+    h1 {
+        font-weight: 500;
+    }
+}
+
+.Navbar__Oferta {
+    background-color: $generalOrange;
+    padding: 1rem;
+
+    @media only screen and (min-width: 768px) {
+        width: 260px;
+        display: flex;
+        justify-content: center;
+    }
+}
